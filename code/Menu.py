@@ -6,4 +6,5 @@ class Menu:
         self.window = window
 
     def run(self, ):
+
         pass
