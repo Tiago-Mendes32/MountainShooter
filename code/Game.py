@@ -1,12 +1,13 @@
-import pygame as pg
+import pygame
 
+from code.Const import WIN_WIDTH, WIN_HEIGHT
 from code.Menu import Menu
 
 
 class Game:
     def __init__(self):
-        pg.init()
-        self.window = pg.display.set_mode(size=(800, 640))
+        pygame.init()
+        self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
 
     def run(self, ):
 
@@ -14,7 +15,4 @@ class Game:
             menu = Menu(self.window)
             menu.run()
             pass
-            # for event in pg.event.get():
-            #     if event.type == pg.QUIT:
-            #         pg.quit()
-            #         quit()
+
