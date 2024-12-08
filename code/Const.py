@@ -8,6 +8,20 @@ COLOR_YELLOW = (253, 208, 23)
 # E
 ENEMY_SPAWN_TIME = 3000
 
+ENTITY_HEALTH = {
+    'Level1Bg0': 999,
+    'Level1Bg1': 999,
+    'Level1Bg2': 999,
+    'Level1Bg3': 999,
+    'Level1Bg4': 999,
+    'Level1Bg5': 999,
+    'Level1Bg6': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Enemy1': 300,
+    'Enemy2': 300
+}
+
 ENTITY_SPEED = {
     'Level1Bg0': 0,
     'Level1Bg1': 1,
