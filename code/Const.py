@@ -1,15 +1,53 @@
 import pygame
 
-# C
-COLOR_ORANGE = (255, 128, 0)
-COLOR_WHITE = (255, 255, 255)
-COLOR_YELLOW = (253, 208, 23)
+# Colors
+C_ORANGE = (255, 128, 0)
+C_WHITE = (255, 255, 255)
+C_YELLOW = (253, 208, 23)
+C_GREEN = (0, 128, 0)
+C_CYAN = (0, 128, 128)
 
 # E
+ENTITY_DAMAGE = {
+    'Level1Bg0': 0,
+    'Level1Bg1': 0,
+    'Level1Bg2': 0,
+    'Level1Bg3': 0,
+    'Level1Bg4': 0,
+    'Level1Bg5': 0,
+    'Level1Bg6': 0,
+    'Player1': 1,
+    'Player2': 1,
+    'Enemy1': 1,
+    'Enemy2': 1,
+    'Player1Shoot': 50,
+    'Player2Shoot': 80,
+    'Enemy1Shoot': 20,
+    'Enemy2Shoot': 40,
+}
+
+ENTITY_SCORE = {
+    'Level1Bg0': 0,
+    'Level1Bg1': 0,
+    'Level1Bg2': 0,
+    'Level1Bg3': 0,
+    'Level1Bg4': 0,
+    'Level1Bg5': 0,
+    'Level1Bg6': 0,
+    'Player1': 0,
+    'Player2': 0,
+    'Enemy1': 100,
+    'Enemy2': 125,
+    'Player1Shoot': 0,
+    'Player2Shoot': 0,
+    'Enemy1Shoot': 0,
+    'Enemy2Shoot': 0,
+}
+
 ENEMY_SPAWN_TIME = 3000
 
 ENTITY_SHOOT_DELAY = {
-    'Player1Shoot':20,
+    'Player1Shoot': 20,
     'Player2Shoot': 40,
     'Enemy1Shoot': 80,
     'Enemy2Shoot': 120
@@ -27,10 +65,10 @@ ENTITY_HEALTH = {
     'Player2': 300,
     'Enemy1': 300,
     'Enemy2': 300,
-    'Player1Shoot': 999,
-    'Player2Shoot': 999,
-    'Enemy1Shoot': 999,
-    'Enemy2Shoot': 999,
+    'Player1Shoot': 1,
+    'Player2Shoot': 1,
+    'Enemy1Shoot': 1,
+    'Enemy2Shoot': 1,
 }
 
 ENTITY_SPEED = {
