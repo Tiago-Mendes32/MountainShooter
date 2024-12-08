@@ -31,4 +31,4 @@ class Player(Entity):
         if self.shoot_delay == 0:
             self.shoot_delay = ENTITY_SHOOT_DELAY[self.name + 'Shoot']
             if pressed_key[PLAYER_KEY_SHOOT[self.name]]:
-                return PlayerShoot(name=self.name + 'Shoot', position=(self.rect.centerx, self.rect.centery))
+                return PlayerShoot(name=self.name + 'Shoot', position=(self.rect.centerx + 30, self.rect.centery))
