@@ -19,8 +19,8 @@ class Menu:
         while True:
             #DRAW IMAGES
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(50, 'Mountain', C_ORANGE, (WIN_WIDTH / 2, 70))
-            self.menu_text(50, 'Shooter', C_ORANGE, (WIN_WIDTH / 2, 105))
+            self.menu_text(50, 'Mountain', C_ORANGE, (WIN_WIDTH / 2, 50))
+            self.menu_text(50, 'Shooter', C_ORANGE, (WIN_WIDTH / 2, 100))
 
             #CREATE TEXT
             for i in range(len(MENU_OPTION)):

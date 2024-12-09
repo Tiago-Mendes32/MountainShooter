@@ -17,7 +17,7 @@ class Score:
         self.window.blit(source=self.surf, dest=self.rect)
         while True:
             pygame.display.flip()
-            self.score_text(48, f'YOU WIN!: Player1 Score{player_score[0]}', C_YELLOW, SCORE_POS['Title'])
+            self.score_text(48, f'YOU WIN! Player1 Score{player_score[0]}', C_YELLOW, SCORE_POS['Title'])
             pass
 
     def show(self):
